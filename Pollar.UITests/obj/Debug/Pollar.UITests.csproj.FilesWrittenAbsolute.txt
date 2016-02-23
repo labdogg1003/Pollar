@@ -1,0 +1,7 @@
+/Users/labdog/Projects/Pollar/Pollar.UITests/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/labdog/Projects/Pollar/Pollar.UITests/bin/Debug/Pollar.UITests.dll.mdb
+/Users/labdog/Projects/Pollar/Pollar.UITests/bin/Debug/Pollar.UITests.dll
+/Users/labdog/Projects/Pollar/Pollar.UITests/obj/Debug/Pollar.UITests.dll
+/Users/labdog/Projects/Pollar/Pollar.UITests/obj/Debug/Pollar.UITests.dll.mdb
+/Users/labdog/Projects/Pollar/Pollar.UITests/bin/Debug/nunit.framework.dll
+/Users/labdog/Projects/Pollar/Pollar.UITests/bin/Debug/Xamarin.UITest.dll

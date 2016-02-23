@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/relativeLayout1"
+    p1:background="#ff349bff">
+    <EditText
+        p1:layout_width="227.7dp"
+        p1:layout_height="34.7dp"
+        p1:id="@+id/fldQuestion"
+        p1:background="#ffffffff"
+        p1:layout_alignParentBottom="false"
+        p1:layout_centerHorizontal="true"
+        p1:layout_marginTop="30dp"
+        p1:hint="Question"
+        p1:textColorHint="#D3D3D3"
+        p1:textAlignment="center"
+        p1:gravity="center"
+        p1:textColor="#ff000000" />
+    <EditText
+        p1:layout_width="150dp"
+        p1:layout_height="30dp"
+        p1:layout_below="@id/fldQuestion"
+        p1:id="@+id/fldAns1"
+        p1:layout_centerInParent="true"
+        p1:background="#ffffffff"
+        p1:layout_marginTop="40dp"
+        p1:hint="Answer 1"
+        p1:textColorHint="#D3D3D3"
+        p1:gravity="center"
+        p1:textColor="#ff000000" />
+    <EditText
+        p1:layout_width="150dp"
+        p1:layout_height="30dp"
+        p1:layout_below="@id/fldAns1"
+        p1:id="@+id/fldAns2"
+        p1:layout_marginTop="20dp"
+        p1:background="#ffffffff"
+        p1:layout_centerInParent="true"
+        p1:hint="Answer 2"
+        p1:textColorHint="#D3D3D3"
+        p1:gravity="center"
+        p1:textColor="#ff000000" />
+    <EditText
+        p1:layout_width="150dp"
+        p1:layout_height="30dp"
+        p1:layout_below="@id/fldAns2"
+        p1:id="@+id/fldAns3"
+        p1:layout_centerInParent="true"
+        p1:background="#ffffffff"
+        p1:layout_marginTop="20dp"
+        p1:hint="Answer 3"
+        p1:textColorHint="#D3D3D3"
+        p1:gravity="center"
+        p1:textColor="#ff000000" />
+    <EditText
+        p1:layout_width="150dp"
+        p1:layout_height="30dp"
+        p1:layout_below="@id/fldAns3"
+        p1:id="@+id/fldAns4"
+        p1:layout_marginTop="20dp"
+        p1:layout_centerInParent="true"
+        p1:background="#ffffffff"
+        p1:hint="Answer 4"
+        p1:textColorHint="#D3D3D3"
+        p1:gravity="center"
+        p1:textColor="#ff000000" />
+    <TextView
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="210.4dp"
+        p1:layout_height="68.2dp"
+        p1:layout_below="@id/fldAns4"
+        p1:id="@+id/txtRoomID"
+        p1:layout_centerInParent="true"
+        p1:layout_marginTop="20dp"
+        p1:textColor="#ff000000"
+        p1:textSize="50dp"
+        p1:gravity="center" />
+    <Button
+        p1:text="Ask Question"
+        p1:layout_width="173.7dp"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/txtRoomID"
+        p1:id="@+id/btnAsk"
+        p1:layout_centerInParent="true"
+        p1:background="#01ffffff" />
+    <Button
+        p1:text="Back"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/btnAsk"
+        p1:id="@+id/btnBack"
+        p1:layout_centerInParent="true"
+        p1:background="#01ffffff" />
+    <TextView
+        p1:textAppearance="?android:attr/textAppearanceSmall"
+        p1:layout_width="385.6dp"
+        p1:layout_height="34.5dp"
+        p1:layout_below="@id/btnBack"
+        p1:id="@+id/txtException"
+        p1:textColor="#fff14e4e"
+        p1:gravity="center"
+        p1:textSize="16dp" />
+</RelativeLayout>

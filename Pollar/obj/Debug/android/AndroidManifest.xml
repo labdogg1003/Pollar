@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.labeotsjacob.pollar">
+  <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="22" />
+  <application android:label="Pollar" android:name="mono.android.app.Application" android:debuggable="true">
+    <activity android:label="AnswerViewController" android:name="md5760e1c49ca96f77bb6c7a8a221759f63.AnswerViewController" />
+    <activity android:label="AskViewController" android:name="md5760e1c49ca96f77bb6c7a8a221759f63.AskViewController" />
+    <activity android:icon="@drawable/icon" android:label="Pollar" android:name="md5760e1c49ca96f77bb6c7a8a221759f63.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:configChanges="orientation|screenSize" android:label="POIs" android:name="md5760e1c49ca96f77bb6c7a8a221759f63.MyQuestionController">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="QuestionDataController" android:name="md5760e1c49ca96f77bb6c7a8a221759f63.QuestionDataController" />
+    <activity android:configChanges="orientation|screenSize" android:label="POIs" android:name="md5760e1c49ca96f77bb6c7a8a221759f63.QuestionListActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="Web Authenticator" android:name="md588920fb9403ed228b036d6919cddd329.FormAuthenticatorActivity" />
+    <activity android:label="Web Authenticator" android:name="md588920fb9403ed228b036d6919cddd329.WebAuthenticatorActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.labeotsjacob.pollar.mono.MonoRuntimeProvider.__mono_init__" />
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.com.labeotsjacob.pollar" />
+      </intent-filter>
+    </receiver>
+  </application>
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

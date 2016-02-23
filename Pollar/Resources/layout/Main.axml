@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/relativeLayout1"
+    p1:background="#ff349bff">
+    <TextView
+        p1:text="Room ID"
+        p1:textAppearance="?android:attr/textAppearanceSmall"
+        p1:layout_width="386.8dp"
+        p1:layout_height="43.8dp"
+        p1:id="@+id/textView1"
+        p1:gravity="center_horizontal"
+        p1:typeface="normal"
+        p1:textStyle="normal"
+        p1:textSize="26dp"
+        p1:textColor="#ff000000"
+        p1:layout_marginTop="130dp" />
+    <EditText
+        p1:layout_width="247.4dp"
+        p1:layout_height="39.5dp"
+        p1:layout_below="@id/textView1"
+        p1:id="@+id/fldRoomID"
+        p1:gravity="center"
+        p1:layout_centerInParent="true"
+        p1:background="#ffffffff"
+        p1:textColor="#ff000000"
+        p1:hint="Room ID"
+        p1:textColorHint="#D3D3D3"
+        p1:shadowDx="0"
+        p1:shadowDy="0"
+        p1:maxLength="4" />
+    <Button
+        p1:text="Enter Room"
+        p1:layout_width="126.9dp"
+        p1:layout_height="51.6dp"
+        p1:layout_below="@id/fldRoomID"
+        p1:id="@+id/btnEnter"
+        p1:gravity="center"
+        p1:layout_centerInParent="true"
+        p1:layout_marginTop="12dp"
+        p1:background="#01349bff"
+        p1:shadowDx="0"
+        p1:shadowDy="0" />
+    <Button
+        p1:text="Ask Question"
+        p1:layout_width="130.5dp"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/btnEnter"
+        p1:id="@+id/btnAsk"
+        p1:layout_centerInParent="true"
+        p1:layout_marginTop="100dp"
+        p1:background="#01ffffff" />
+    <Button
+        p1:text="My Questions"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/btnAsk"
+        p1:id="@+id/btnMine"
+        p1:layout_marginTop="dp"
+        p1:layout_centerInParent="true"
+        p1:background="#01349bff"
+        p1:layout_above="@id/btnMine" />
+</RelativeLayout>

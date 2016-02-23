@@ -1,0 +1,22 @@
+﻿<Properties StartupItem="Pollar/Pollar.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Android.Nexus 5 (Lollipop)" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pollar/QuestionListViewAdapter.cs">
+    <Files>
+      <File FileName="Pollar/QuestionListViewAdapter.cs" Line="1" Column="1" />
+      <File FileName="Pollar/Object/QuestionListActivity.cs" Line="1" Column="1" />
+      <File FileName="Pollar/Object/QuestionJsonService.cs" Line="1" Column="1" />
+      <File FileName="Pollar/Views/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="Pollar/IQuestionDataService.cs" Line="1" Column="1" />
+      <File FileName="Pollar/QuestionData.cs" Line="1" Column="1" />
+      <File FileName="Pollar/Views/AskViewController.cs" Line="1" Column="1" />
+      <File FileName="Pollar/Views/MyQuestionController.cs" Line="1" Column="1" />
+      <File FileName="Pollar/Views/AnswerViewController.cs" Line="1" Column="1" />
+      <File FileName="Pollar/Properties/AndroidManifest.xml" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Pollar AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>
